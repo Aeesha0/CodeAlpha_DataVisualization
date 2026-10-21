@@ -17,17 +17,26 @@ Visualizes the findings from Task 2's EDA on Jumia Nigeria's skincare market, pr
 ### 1. Price Distribution
 Most skincare products are priced under ₦15,000, with a long tail of a few premium products reaching up to ₦51,000. Confirms the market is right-skewed, median is a better "typical price" than the mean.
 
+![Price Distribution](chart1_price_distribution.png)
+
 ### 2. Top 10 Brands by Product Count
 NIVEA (33) and Dettol (27) dominate the catalog, together over a third of all skincare products listed.
 
+![Top Brands](chart2_top_brands.png)
+
 ### 3. Price vs Rating
 A scatterplot of all 159 products shows ratings clustering between 4 and 5 regardless of price, visual confirmation of the weak correlation (0.15) found in Task 2. A handful of low-rated outliers appear mostly at lower price points.
+![Price vs Rating](chart3_price_vs_rating.png)
 
 ### 4. Discounted vs Full-Price: Rating & Review Count
 Full-price products average a higher rating (4.23 vs 3.93) but fewer reviews (360 vs 691) than discounted ones. Discounts appear to drive purchase volume, not necessarily satisfaction.
 
+![Discount Comparison](chart4_discount_comparison.png)
+
 ### 5. Average Price by Top 5 Brands
 NIVEA prices nearly 3x higher than Dettol, Vaseline, Generic, and Eva Soap, a clear premium positioning in this market.
+
+![Average Price by Brand](chart5_avg_price_by_brand.png)
 
 ## Files
 - `visualize.py`: script that generates all charts
